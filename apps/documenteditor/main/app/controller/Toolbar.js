@@ -346,6 +346,7 @@ define([
             toolbar.btnAlignCenter.on('click',                          _.bind(this.onHorizontalAlign, this, 2));
             toolbar.btnAlignRight.on('click',                           _.bind(this.onHorizontalAlign, this, 0));
             toolbar.btnAlignJust.on('click',                            _.bind(this.onHorizontalAlign, this, 3));
+            toolbar.btnAlignDist.on('click',                            _.bind(this.onHorizontalAlign, this, 4));
             toolbar.btnDecLeftOffset.on('click',                        _.bind(this.onDecOffset, this));
             toolbar.btnIncLeftOffset.on('click',                        _.bind(this.onIncOffset, this));
             toolbar.btnMarkers.on('click',                              _.bind(this.onMarkers, this));
@@ -648,6 +649,7 @@ define([
                     toolbar.btnAlignLeft.toggle(false, true);
                     toolbar.btnAlignCenter.toggle(false, true);
                     toolbar.btnAlignJust.toggle(false, true);
+                    toolbar.btnAlignDist.toggle(false, true);
                     return;
                 }
 
@@ -655,6 +657,7 @@ define([
                 toolbar.btnAlignLeft.toggle(this._state.rtlDir ? v===0 : v===1, true);
                 toolbar.btnAlignCenter.toggle(v===2, true);
                 toolbar.btnAlignJust.toggle(v===3, true);
+                toolbar.btnAlignDist.toggle(v===4, true);
             }
         },
 

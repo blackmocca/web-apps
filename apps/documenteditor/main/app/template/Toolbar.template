@@ -73,6 +73,7 @@
                         <span class="btn-slot split" id="slot-btn-align-center"></span>
                         <span class="btn-slot split" id="<% if (!isRTL) { %>slot-btn-align-right<% } else { %>slot-btn-align-left<% } %>"></span>
                         <span class="btn-slot split" id="slot-btn-align-just"></span>
+                        <span class="btn-slot split" id="slot-btn-align-dist"></span>
                         <span class="btn-slot split" id="slot-btn-hidenchars"></span>
                         <span class="btn-slot split" id="slot-btn-paracolor"></span>
                         <span class="btn-slot split" id="slot-btn-borders"></span>

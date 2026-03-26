@@ -110,7 +110,8 @@ define([
                 {displayValue: this.textTabLeft, value: c_paragraphTextAlignment.LEFT},
                 {displayValue: this.textTabCenter, value: c_paragraphTextAlignment.CENTERED},
                 {displayValue: this.textTabRight, value: c_paragraphTextAlignment.RIGHT},
-                {displayValue: this.textJustified, value: c_paragraphTextAlignment.JUSTIFIED}
+                {displayValue: this.textJustified, value: c_paragraphTextAlignment.JUSTIFIED},
+                {displayValue: this.textDistributed, value: c_paragraphTextAlignment.DISTRIBUTED}
             ];
 
             this._arrOutlinelevel = [{displayValue: this.textBodyText, value: -1}];
@@ -1582,6 +1583,7 @@ define([
         textFirstLine: 'First line',
         textHanging: 'Hanging',
         textJustified: 'Justified',
+        textDistributed: 'Distributed',
         textBodyText: 'Basic Text',
         textLevel: 'Level',
         strIndentsOutlinelevel: 'Outline level',

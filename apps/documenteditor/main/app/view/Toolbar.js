@@ -608,6 +608,18 @@ define([
                         label: this.tipAlignJust
                     };
 
+                    this.btnAlignDist = new Common.UI.Button({
+                        id: 'id-toolbar-btn-align-dist',
+                        cls: 'btn-toolbar',
+                        iconCls: 'toolbar__icon btn-align-just',
+                        lock: [_set.paragraphLock, _set.headerLock, _set.richEditLock, _set.plainEditLock, _set.previewReviewMode, _set.viewFormMode, _set.lostConnect, _set.disableOnStart, _set.docLockViewPara, _set.docLockForms, _set.docLockCommentsPara, _set.fixedForm, _set.viewMode],
+                        enableToggle: true,
+                        toggleGroup: 'alignGroup',
+                        dataHint: '1',
+                        dataHintDirection: 'bottom'
+                    });
+                    this.paragraphControls.push(this.btnAlignDist);
+
                     this.btnDecLeftOffset = new Common.UI.Button({
                         id: 'id-toolbar-btn-decoffset',
                         cls: 'btn-toolbar',
@@ -2196,6 +2208,7 @@ define([
                 _injectComponent('#slot-btn-align-center', this.btnAlignCenter);
                 _injectComponent('#slot-btn-align-right', this.btnAlignRight);
                 _injectComponent('#slot-btn-align-just', this.btnAlignJust);
+                _injectComponent('#slot-btn-align-dist', this.btnAlignDist);
                 _injectComponent('#slot-btn-incoffset', this.btnIncLeftOffset);
                 _injectComponent('#slot-btn-decoffset', this.btnDecLeftOffset);
                 _injectComponent('#slot-btn-linespace', this.btnLineSpace);
