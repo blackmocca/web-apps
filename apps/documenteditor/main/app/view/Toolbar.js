@@ -611,7 +611,7 @@ define([
                     this.btnAlignDist = new Common.UI.Button({
                         id: 'id-toolbar-btn-align-dist',
                         cls: 'btn-toolbar',
-                        iconCls: 'toolbar__icon btn-align-just',
+                        iconCls: 'toolbar__icon btn-align-dist',
                         lock: [_set.paragraphLock, _set.headerLock, _set.richEditLock, _set.plainEditLock, _set.previewReviewMode, _set.viewFormMode, _set.lostConnect, _set.disableOnStart, _set.docLockViewPara, _set.docLockForms, _set.docLockCommentsPara, _set.fixedForm, _set.viewMode],
                         enableToggle: true,
                         toggleGroup: 'alignGroup',
