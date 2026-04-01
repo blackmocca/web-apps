@@ -138,11 +138,9 @@ define([
                             '</section>' +
                         '</section>';
 
-        // LOGO HIDDEN — uncomment below and remove the empty string to restore
-        // var templateLeftBox = '<section class="logo">' +
-        //                         '<div id="header-logo"><i></i></div>' +
-        //                     '</section>';
-        var templateLeftBox = '';
+        var templateLeftBox = '<section class="logo">' +
+                                '<div id="header-logo"><i></i></div>' +
+                            '</section>';
 
             var templateTitleBox = '<section id="box-document-title">' +
                                 '<div class="extra"></div>' +
